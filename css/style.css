@@ -1,0 +1,217 @@
+body{
+  font-family: 'Ubuntu' !important;
+}
+/* Navigation bar */
+
+.navbar{
+  padding: 0 0 4.5rem !important;
+}
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-size: 2.5rem !important;
+  font-weight: bold;
+}
+.navbar-item{
+  padding: 0px 18px;
+}
+.nav-link{
+  font-size: 1.25rem;
+   font-family: 'Ubuntu';
+}
+
+/* background image */
+#title
+{
+  background-image:url('../images/f2.jpg');
+  height: 700px;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* DOB */
+.dob{
+  text-align: center;
+  font-family: 'Ubuntu';
+  width: 50%;
+  position: relative;
+  top: 150px;
+  left: 600px;
+  color: #c9a90c;
+  font-size: 2.5rem;
+}
+.dob i{
+  color: red;
+}
+/* Biography */
+#Biography
+{
+  text-align: center;
+  font-family: 'Ubuntu-500';
+  padding: 10%;
+  line-height: 2rem;
+  font-size: 1.5rem;
+  background-color: black;
+}
+#Biography p{
+background: -webkit-linear-gradient(#742794, #adb5bd);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+#Biography h1{
+  font-size: 4.5rem;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* Quotes */
+#quotes{
+  text-align: center;
+  color: yellow;
+  padding: 10%;
+  background-image: url('../images/front.jpg');
+  /* filter: blur(5px); */
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.fir,.sec,.thi
+{
+  padding: 7% 15%;
+}
+.fir{
+  background-image: url('../images/figth.jpg');
+  height: 500px;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.sec{
+  background-image: url('../images/jpi.jpg');
+  height: 500px;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.thi{
+  background-image: url('../images/lo.jpg');
+  height: 500px;
+  background-position: left;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+}
+/* Hit movies */
+ #Hits {
+  padding:10%;
+  background-image: url(../images/mop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 2rem;
+  color: purple;
+}
+.col-lg-6 img{
+  width: 50%;
+}
+/* Social media */
+.twinkling{
+  background-color: #070229;
+  text-align: center;
+  color:  #c9a90c;
+  padding :10%;
+  font-size: 25px;
+}
+.twinkling i{
+  color:#c9a90c;
+  padding: 10px;
+
+}
+
+/* Back to top button */
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+/* Background stars */
+/* ==============================================================================================
+SED Innovations
+https://sed.am
+https://mkrtchyan.ga
+================================================================================================= */
+
+@keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-webkit-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-moz-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-ms-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+
+@keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+@-webkit-keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+@-moz-keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+@-ms-keyframes move-clouds-back {
+    from {background-position: 0;}
+    to {background-position:10000px 0;}
+}
+
+.stars, .twinkling {
+  width:100%;
+  height:100%;
+  display:block;
+}
+
+.stars {
+  background:#000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
+  z-index:0;
+}
+
+.twinkling{
+  background:transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
+  z-index:1;
+
+  -moz-animation:move-twink-back 200s linear infinite;
+  -ms-animation:move-twink-back 200s linear infinite;
+  -o-animation:move-twink-back 200s linear infinite;
+  -webkit-animation:move-twink-back 200s linear infinite;
+  animation:move-twink-back 200s linear infinite;
+}
